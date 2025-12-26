@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abid Rakha - Investments</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="index.html" class="logo">Abid Rakha</a>
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="investments.html">Investments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section scroll-hidden">
+        <h2>Investment Journal</h2>
+        <p class="subtitle-center">
+          My forward-thinking theses on markets and holdings.
+        </p>
+
+        <div class="investment-cards">
+          <div class="investment-card" data-ticker="CIFR">
+            <div class="header">
+              <h3>Cipher Mining (CIFR)</h3>
+              <p class="price">Loading...</p>
+            </div>
+            <button class="expand-btn" onclick="toggleExpand(this)">
+              Thesis <span class="arrow-icon">►</span>
+            </button>
+            <div class="expand-content">
+              <p>Thesis details here...</p>
+            </div>
+            <button class="expand-btn" onclick="toggleExpand(this)">
+              Comments <span class="arrow-icon">►</span>
+            </button>
+            <div class="expand-content">
+              <p>Dec 26, 2025: Comment here.</p>
+            </div>
+          </div>
+
+          <div class="investment-card" data-ticker="IREN">
+            <div class="header">
+              <h3>Iris Energy (IREN)</h3>
+              <p class="price">Loading...</p>
+            </div>
+            <button class="expand-btn" onclick="toggleExpand(this)">
+              Thesis <span class="arrow-icon">►</span>
+            </button>
+            <div class="expand-content">
+              <p>Thesis details here...</p>
+            </div>
+            <button class="expand-btn" onclick="toggleExpand(this)">
+              Comments <span class="arrow-icon">►</span>
+            </button>
+            <div class="expand-content">
+              <p>Dec 26, 2025: Comment here.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,24 +1,62 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - Portfolio</title>
+    <title>Abid Rakha - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <!-- Links to sections -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="index.html" class="logo">Abid Rakha</a>
+          <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="investments.html">Investments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
+
     <main>
-      <section id="hero">
-        <h1>Welcome to My Space</h1>
-        <p>Exploring code, markets, and beyond.</p>
+      <section id="hero" class="hero">
+        <div class="hero-content scroll-hidden">
+          <div class="hero-text">
+            <h1>Hi, I'm Abid</h1>
+            <p>
+              Observability Engineer specializing in Splunk. Passionate about
+              AI, data science, and optimizing systems for actionable insights.
+            </p>
+
+            <div class="stats">
+              <div><span>+7</span> Years Exp.</div>
+              <div><span>BSc</span> Mathematics</div>
+              <div><span>MSc</span> AI/Data Science</div>
+            </div>
+
+            <p>As a forward thinker, I'm invested in AI and tech futures.</p>
+
+            <div class="btn-group">
+              <a href="about.html" class="btn">About Me</a>
+              <a href="experience.html" class="btn">Experience</a>
+              <a href="investments.html" class="btn">Investment Theses</a>
+            </div>
+          </div>
+
+          <img
+            src="abid_portfolio_website_images/abid.jpg"
+            alt="Abid Rakha"
+            class="hero-photo"
+          />
+        </div>
       </section>
-      <!-- More sections -->
     </main>
     <script src="js/main.js"></script>
   </body>
